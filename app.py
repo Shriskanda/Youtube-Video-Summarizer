@@ -29,7 +29,6 @@ def get_transcript(youtube_url):
     return full_transcript, language_code  
 
 def summarize_with_langchain_and_openai(transcript, language_code, model_name='gpt-3.5-turbo'):
-    # Same as your original code
     pass
 
 def main():
